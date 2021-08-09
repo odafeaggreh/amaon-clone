@@ -34,7 +34,9 @@ function Header() {
               Hello, {user ? user.email : "Guest"}
             </span>
             <span className="header__optionLineTwo">
-              {user ? "Sign Out" : "Sign In"}
+              {user ? "Sign Out" : "Sign In"
+            
+            }
             </span>
           </div>
         </Link>
