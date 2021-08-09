@@ -1,6 +1,7 @@
 import React from "react";
 import "./CheckoutProduct.css";
 import { useStateValue } from "../Context/StateProvider";
+import FlipMove from "react-flip-move";
 
 function CheckoutProduct({ id, title, image, price, rating }) {
   const [{ basket }, dispatch] = useStateValue();
